@@ -1,0 +1,54 @@
+#notions{
+	padding-bottom: 30px;
+}
+
+.notions--card{
+	display: block;
+	background: white;
+	padding: 10px;
+	margin-bottom: 30px;
+	height: 322px;
+	box-shadow: inset 5px -5px 12px 3px rgba(0,0,0,0.63);
+}
+.notions--card h2{
+	text-align: center;
+}
+
+.notions--card p{
+	padding: 5px;
+	text-align: justify;
+	margin: 0px;
+	font-size: 1rem;
+}
+
+
+
+.notions--card-img>figure{
+	float: left;
+	margin: 0px;   
+	border: 1px solid black;
+	background: rgb(233,230,225);
+	margin: 0px 40px;
+}
+
+
+#carouselExampleControls{
+	position: relative;
+}
+
+.carousel-indicators{
+	bottom: -30px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+	background: black;
+	height: 3px !importants;
+}
+
+@media(max-width: 600px){
+	.notions--card{
+		display: block;
+		height: 400px;
+		overflow: scroll;
+	}
+}
