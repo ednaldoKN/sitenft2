@@ -27,10 +27,23 @@ header ul{
 	font-family: myfont;
 }
 
+
+#social-icon-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30px;
+
+}
+
+##social-icon-container{
+}
+
 main #home{
 	padding: 0px !important;
 	padding-top: 130px !important;
-	background: #e2ddd4;
+	background: rgba(233,230,225,.4);
+
 	display: flex;
 	height: 100vh;
 }
@@ -45,6 +58,7 @@ main #home{
 #home h1{
 	margin-left: 70px;
 	font-weight: bold;
+	font-style: italic;
 }
 
 #home h1 span{
@@ -58,8 +72,9 @@ main #home{
 
 
 #home .banner-img{
-	width: 477px;
-	height: 477px;
+	margin: 0px auto;
+	width: 400px;
+	height: 400px;
 	background: #ffaa5e;
 	border-radius: 50%;
 }
@@ -88,6 +103,18 @@ main #home{
 	background: white;
 }
 
+.social-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffaa5e ;
+	border-radius: 52%;
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+
 @media(max-width: 450px){
 	header .navbar-brand img{
 		width: 50px;
@@ -96,14 +123,16 @@ main #home{
 	main #home{
 		padding-top: 80px !important;
 		display: block;
+		height: 100%;
+		padding-bottom: 80px !important;
 	}
 	.navbar-nav a{
 		text-align: center;
 		line-height: 40px;
 	}
 	.navbar-nav a:hover{
-		background:#0d2b45 ;
-		opacity: 10;
+		/*background:#0d2b45 ;*/
+		opacity: .8;
 	}
 	.navbar.navbar-expand-lg.navbar-light.bg-light{
 		/*height: ;*/
@@ -112,5 +141,11 @@ main #home{
 		width: 350px;
 		height: 350px;
 		margin: 0px auto;
+	}
+	#social-icon-container{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: 30px;
 	}
 }

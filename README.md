@@ -1,0 +1,2 @@
+-- add logo opensea
+-- decrease navbar height
