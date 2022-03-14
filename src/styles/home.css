@@ -75,7 +75,7 @@ main #home{
 	margin: 0px auto;
 	width: 400px;
 	height: 400px;
-	background: #ffaa5e;
+	/*background: #ffaa5e;*/
 	border-radius: 50%;
 }
 
@@ -100,7 +100,6 @@ main #home{
 */
 #home img{
 	width: 100%;
-	background: white;
 }
 
 .social-icon{

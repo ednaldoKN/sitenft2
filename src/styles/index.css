@@ -22,7 +22,7 @@
 
 body,html{
 	overflow-x: hidden;
-	font-size: 15px;
+	font-size: 20px;
 	color: #0d2b45;
   font-family: 'Coolvetica', sans-serif;
                                                
@@ -78,12 +78,10 @@ footer > p{
 
 
 
-.benefits--img{
-	height: 300px;
+.benefits--img img{
 	width: 100%;
-	background: #ffaa5e;
-	margin:20px 0px 50px 0px;
-	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -115,5 +113,4 @@ footer > p{
 		margin-bottom: 0px;
 		padding-bottom: 20px;
 	}
-
 }

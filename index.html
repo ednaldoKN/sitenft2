@@ -30,7 +30,7 @@
 	<link rel="stylesheet" type="text/css" href="./src/styles/notions.css">
 	<link rel="stylesheet" type="text/css" href="./src/styles/roadmap.css">
 	<link rel="stylesheet" type="text/css" href="./src/styles/team.css">
-	<link rel="stylesheet" type ="text/css" href="./src/styles/sobre.css">
+	<link rel="stylesheet" type ="text/css" href="./src/styles/about.css">
 	<link rel="stylesheet" type="text/css" href="./src/styles/faq.css">
 </head>
 	<!-- Fazer depois metas SEO descprion -->
@@ -47,8 +47,8 @@
 		      <ul class="navbar-nav">
 		        <a class="nav-link active" aria-current="page" href="#home" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>Home</a>
 		        <a class="nav-link" href="#about" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>About</a>
-		        <a class="nav-link" href="#story" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>History</a>
-		        <a class="nav-link" href="#na    tions" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>Nations</a>
+		        <a class="nav-link" href="#story" data-bs-target='#navbarNavAltMark        up' data-bs-toggle='collapse'>History</a>
+		        <a class="nav-link" href="#nations" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>Nations</a>
 		        <a class="nav-link" href="#benefits" data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>Benefits</a>
 		        <a class="nav-link" href="#timeline"data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'>RoadMap</a>
 
@@ -74,20 +74,36 @@
 			</div>
 			<div>
 				<div class="banner-img">
-					
+					<img src="./src/assets/20220314_194657.png" alt="Banner avatar">
 				</div>
 			</div>
 		</section> <!-- Fim bannner -->
 
 		<!-- About -->
-		<section id="about">
+		<section id="about" style="padding-bottom: 50px;">
 			<h1>About</h1>
-			<p>
-				The Slice War Metaverse is a set of 4 collections based on your metaverse, where each NFT avatar is unique and randomly generated.
-			</p>
-			<p>
-				The first intergalactic war has started and we will have only 1 winner, choose your side!
-			</p>
+			<div 
+				id="about-items"
+				style="
+					display: flex; 
+					justify-content: space-around;
+					align-content: center;
+				"
+			>
+				<div style="width: 50%; font-size: 1em;">
+					<p>
+						The Slice War Metaverse is a set of 4 collections based on your metaverse, where each NFT avatar is unique and randomly generated.
+					</p>
+					<p>
+						The first intergalactic war has started and we will have only 1 winner, choose your side!
+					</p>
+				</div>
+
+				<div  style="width: 250px; display: flex; justify-content: center; align-content:center;">
+					<img style="width: 100%;" src="./src/assets/20220314_194836.png" alt="about avatar" >
+				</div>
+			</div>
+			
 		</section> <!-- Fim about-->
 
 
@@ -214,7 +230,7 @@
 
 			<!-- The style of benefits--img is on /styles/index.css -->
 			<div class="benefits--img">
-				
+				<img src="./src/assets/20220314_194411.png" alt="benefits avatar">
 			</div>
     	</section>
 

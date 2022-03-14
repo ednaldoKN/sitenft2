@@ -1,0 +1,6 @@
+.about{
+     background: blue !important;
+}
+.about-items{
+     display: flex !important;
+}
